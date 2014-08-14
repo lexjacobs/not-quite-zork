@@ -1,36 +1,40 @@
 body {
-  font-family: 'VT323', monospace;
-  color: #3BBE35;
-  background-color: #161616;
+font-family: 'VT323', monospace;
+color: #3BBE35;
+background-color: #161616;
 }
 
 pre {
-  font-family: 'VT323', monospace;
+font-family: 'VT323', monospace;
 }
 
 .player-input {
-  width:300px;
-  margin-top: 20px;
+width:300px;
+margin-top: 20px;
 }
 
 .game-output {
-  margin-bottom: 10px;
-  margin-top: 10px;
-  border: solid;
-  border-color: gre;
-  width: 80%;
-  display: block;
-  padding: 10px;
+margin-bottom: 10px;
+margin-top: 10px;
+border: solid;
+border-color: gre;
+width: 80%;
+display: block;
+padding: 10px;
 }
 
 article {
-  margin: 5px;
+margin: 5px;
+}
+
+.room-description {
+margin-left: 19px;
 }
 
 .upload-world{
-  width: 300px;
+width: 300px;
 }
 
 .blink {
-  text-decoration: blink;
+text-decoration: blink;
 }
