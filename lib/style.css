@@ -1,5 +1,11 @@
 body {
-  font-family: monospace;
+  font-family: 'VT323', monospace;
+  color: #3BBE35;
+  background-color: #161616;
+}
+
+pre {
+  font-family: 'VT323', monospace;
 }
 
 .player-input {
@@ -11,8 +17,7 @@ body {
   margin-bottom: 10px;
   margin-top: 10px;
   border: solid;
-  border-color: black;
-  border-radius: 6px;
+  border-color: gre;
   width: 80%;
   display: block;
   padding: 10px;
@@ -24,4 +29,8 @@ article {
 
 .upload-world{
   width: 300px;
+}
+
+.blink {
+  text-decoration: blink;
 }
