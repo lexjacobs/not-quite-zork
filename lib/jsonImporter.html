@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>import this JSON</title>
+</head>
+<body>
+
+<script>
+  
+var treeData;
+
+var oReq = new XMLHttpRequest();
+oReq.onload = reqListener;
+oReq.open("get", "world.json", true);
+oReq.send();
+
+function reqListener(e) {
+    treeData = JSON.parse(this.responseText);
+    // var a = JSON.parse(treeData);
+    console.log(treeData);
+}
+
+
+</script>
+
+</body>
+</html>
