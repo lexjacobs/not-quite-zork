@@ -15,8 +15,8 @@ oReq.open("get", "world.json", true);
 oReq.send();
 
 function reqListener(e) {
+  console.log(e);
     treeData = JSON.parse(this.responseText);
-    // var a = JSON.parse(treeData);
     console.log(treeData);
 }
 
