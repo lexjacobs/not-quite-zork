@@ -1,11 +1,19 @@
 Not Quite Zork
 ==============
 
-##Game engine inspired by a job interview question.
+##Game engine for you to create your own choose-your-own-adventure stories, and invite people to interactively walk through them.
 
-###Currently operating as more of a 'choose your own adventure' story engine. Interactivity is currently limited to picking up and dropping objects anywhere in the maze realm, and finding them there again when you return (during the current session only. Will not survive page refresh yet!)
+###In process: interactivity is currently limited to picking up and dropping objects anywhere in the maze realm, and finding them there again when you return (during the current session only. Will not survive page refresh yet!)
 
-Format if you want to run your own worlds:
+TODO:
+
+* Allow for a default setting that reveals available directions without having to type 'look'.
+* Allow for saving current progress.
+* Incorporate 'localstorage' for persistance between accidental page loads or browser navigation.
+* Allow for the interaction between carried objects and in-world scenarios.
+
+Here is the JSON object format if you want to run your own worlds:
+**ENSURE** that your JSON formatting is correct, with double quotes around all keys.
 
 Your 'world' object must contain:
 * An array of rooms, with each room containing:
